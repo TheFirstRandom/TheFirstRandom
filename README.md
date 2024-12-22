@@ -31,4 +31,5 @@ The latest comment will also be displayed in this README.
 
 `Latest coffee bought:` 
 <!-- START-INSERT -->
+you could be the first...
 <!-- END-INSERT -->
