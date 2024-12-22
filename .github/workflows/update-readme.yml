@@ -35,7 +35,8 @@ jobs:
           git add README.md
           git commit -m "Update README with latest comment from Issue #1" || echo "No changes to commit"
 
-      - name: Push Changes
+      - name: Push Changes to Main Branch
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GH_TOKEN }}
+          branch: main
