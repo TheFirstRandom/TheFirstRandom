@@ -29,4 +29,6 @@ Leave a comment on "Coffee Issue" to let me know who you bought a coffee for.
 The latest comment will also be displayed in this README. 
 </p>
 
-`Latest coffee bought:` <!-- latest-comment-->
+`Latest coffee bought:` 
+<!-- START-INSERT -->
+<!-- END-INSERT -->
