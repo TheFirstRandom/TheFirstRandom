@@ -13,11 +13,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Fetch Latest Comment from Issue #1
+      - name: Fetch Latest Comment from Issue
         id: fetch-comment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           latest_comment=$(gh api repos/${{ github.repository }}/issues/1/comments --paginate --jq '.[-1].body')
-          
           echo "$latest_comment" > latest_comment.txt
 
       - name: Insert Comment into README.md
