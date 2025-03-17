@@ -19,7 +19,6 @@ if datetime.date.today() >= datetime.date(2025, 4, 8):
         "apprenticeship": {
             "profession": "information technologist",
             "specialization": "platform engineering",
-            "company": "Ypsomed AG"
         },
         "vocational baccalaureate": True
     }
