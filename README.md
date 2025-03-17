@@ -1,35 +1,73 @@
+<h2 style="position: relative;">
+  <img src="https://media4.giphy.com/media/U1sneBtWxluPUlEOiF/giphy.gif?cid=6c09b9520msuci2bq3xmdihbcd1tu9ni8xcai147gdkiwhyb&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=e" 
+       style="position: relative; top: 15px; width: 50px;" 
+       alt="Sticker" />
+  Hello world and welcome on my GitHub!
+</h2>
+
+---
+
+### `/etc/passwd` - About me
+
+Me in a json document:
+```
+import json
+import datetime
+
+if datetime.date.today() >= datetime.date(2025, 4, 8):
+    employment = {
+        "apprenticeship": {
+            "profession": "information technologist",
+            "specialization": "platform engineering",
+            "company": "Ypsomed AG"
+        },
+        "vocational baccalaureate": True
+    }
+else:
+    employment = "statutory education"
+
+about_me = {
+    "alias": "TheFirstRandom",
+    "country": "Switzerland",
+    "employment": employment,
+}
+
+with open("me.json", "w") as file:
+    json.dump(about_me, file)
+```
+
+---
+
+### `/usr` - My Toolchain
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-FBF8CC?style=for-the-badge&logo=Python&logoColor=black" />
+  <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-FDE4CF?style=for-the-badge&logo=pycharm&logoColor=black" /> 
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-FFCFD2?style=for-the-badge&logo=github&logoColor=black" />
+  <img alt="Zsh" src="https://img.shields.io/badge/Zsh-F1C0E8?style=for-the-badge&logo=zsh&logoColor=black" />
+  <img alt="Markdown" src="https://img.shields.io/badge/Markdown-CFBAF0?style=for-the-badge&logo=markdown&logoColor=black" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-A3C4F3?style=for-the-badge&logo=git&logoColor=black" />
+  <img alt="Codeium" src="https://img.shields.io/badge/Codeium-90DBF4?style=for-the-badge&logo=codeium&logoColor=black" />
+  <img alt="Discord" src="https://img.shields.io/badge/Discord-98F5E1?style=for-the-badge&logo=discord&logoColor=black" />
+</p>
+
+---
+
 ### `/etc/default/locale` - Languages I'm speaking
 <p style="margin-bottom: 2px;">🇨🇭 - Schwiizertüütsch</p>
 <p style="margin-top: 0; margin-bottom: 2px;">🇩🇪 - Deutsch</p>
 <p style="margin-top: 0;">🇬🇧 - English</p>
 
-### `/usr` - Tools I use
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-FBF8CC?style=for-the-badge&logo=Python&logoColor=black" />
-  <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-FDE4CF?style=for-the-badge&logo=pycharm&logoColor=black" /> 
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-FFCFD2?style=for-the-badge&logo=github&logoColor=black" />
-  <img alt="Bash" src="https://img.shields.io/badge/Bash-F1C0E8?style=for-the-badge&logo=gnubash&logoColor=black" />
-  <img alt="Markdown" src="https://img.shields.io/badge/Markdown-CFBAF0?style=for-the-badge&logo=markdown&logoColor=black" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-90DBF4?style=for-the-badge&logo=git&logoColor=black" />
-  <img alt="ChatGPT" src="https://img.shields.io/badge/ChatGPT-98F5E1?style=for-the-badge&logo=openai&logoColor=black" />
-  <img alt="Discord" src="https://img.shields.io/badge/Discord-B9FBC0?style=for-the-badge&logo=discord&logoColor=black" />
-</p>
+---
 
-### `/` - OS I use
-<p>
-  <img alt="Atlas OS" src="https://img.shields.io/badge/Atlas%20OS-A3C4F3?style=for-the-badge&logo=atlasos&logoColor=black" />
-  <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-white?style=for-the-badge&logo=ubuntu&logoColor=black" />
-  <img alt="flare-vm" src="https://img.shields.io/badge/flare--vm-8EECF5?style=for-the-badge" />
-</p>
+### `~/checklist.txt` - What I want to do in the further future
+- [x] Make own LFS build
+- [ ] Build own pc
+- [x] Setup own proxmox homelab
+- [ ] Create a PR for the linux kernel
+- [ ] Code own AI/LLM model
+- [ ] Setup own network with smarthome integration
+- [ ] Get rid of Windows
 
-<h3 style="margin-bottom: 2px;">Buy someone a coffee ☕️</h3>
-<p style="margin-top: 0;">Because I drink no coffee, you can offer one to another person.
+---
 
-Leave a comment on "Coffee Issue" to let me know who you bought a coffee for. 
-The latest comment will also be displayed in this README. 
-</p>
-
-`Latest coffee bought:` 
-<!-- START-INSERT -->
-you could be the first...
-<!-- END-INSERT -->
+<img alt="plane" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExejA5cjNlODcxMjlxN2JyeWk4MTQxMzRzNmtrZHV2NGt5YzlsOTBnMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xThuW0uZfF3rwVan4I/giphy.gif" width="400">
