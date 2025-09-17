@@ -40,14 +40,22 @@ with open("me.json", "w") as file:
 ### `/usr` - My Toolchain
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-FBF8CC?style=for-the-badge&logo=Python&logoColor=black" />
-  <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-FDE4CF?style=for-the-badge&logo=pycharm&logoColor=black" /> 
+  <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-FDE4CF?style=for-the-badge&logo=pycharm&logoColor=black" />
+  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-000000?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust" />
+  <img alt="RustRover" src="https://img.shields.io/badge/RustRover-000000?style=for-the-badge&logo=jetbrains" />
   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-FFCFD2?style=for-the-badge&logo=github&logoColor=black" />
   <img alt="Zsh" src="https://img.shields.io/badge/Zsh-F1C0E8?style=for-the-badge&logo=zsh&logoColor=black" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white" />
+  <img alt="Static Badge" src="https://img.shields.io/badge/QEMU-000000?style=for-the-badge&logo=qemu&logoColor=white" />
   <img alt="Markdown" src="https://img.shields.io/badge/Markdown-CFBAF0?style=for-the-badge&logo=markdown&logoColor=black" />
   <img alt="Git" src="https://img.shields.io/badge/Git-A3C4F3?style=for-the-badge&logo=git&logoColor=black" />
-  <img alt="Codeium" src="https://img.shields.io/badge/Codeium-90DBF4?style=for-the-badge&logo=codeium&logoColor=black" />
   <img alt="Discord" src="https://img.shields.io/badge/Discord-98F5E1?style=for-the-badge&logo=discord&logoColor=black" />
 </p>
+
+**I use**
+<img alt="Static Badge" src="https://img.shields.io/badge/Arch-3D3D3D?style=for-the-badge&logo=archlinux&logoColor=blue">
+**btw.**
 
 ---
 
@@ -55,17 +63,6 @@ with open("me.json", "w") as file:
 <p style="margin-bottom: 2px;">🇨🇭 - Schwiizertüütsch</p>
 <p style="margin-top: 0; margin-bottom: 2px;">🇩🇪 - Deutsch</p>
 <p style="margin-top: 0;">🇬🇧 - English</p>
-
----
-
-### `~/checklist.txt` - What I want to do in the further future
-- [x] Make own LFS build
-- [ ] Build own pc
-- [x] Setup own proxmox homelab
-- [ ] Create a PR for the linux kernel
-- [ ] Code own AI/LLM model
-- [ ] Setup own network with smarthome integration
-- [ ] Get rid of Windows
 
 ---
 
