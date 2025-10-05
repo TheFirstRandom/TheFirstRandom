@@ -9,48 +9,35 @@
 
 ### `/etc/passwd` - About me
 
-Me in a json document:
-```
-import json
-import datetime
-
-if datetime.date.today() >= datetime.date(2025, 4, 8):
-    employment = {
-        "apprenticeship": {
-            "profession": "information technologist",
-            "specialization": "platform engineering",
-        },
-        "vocational baccalaureate": True
-    }
-else:
-    employment = "statutory education"
-
-about_me = {
-    "alias": "TheFirstRandom",
-    "country": "Switzerland",
-    "employment": employment,
+```json
+{
+  "employment": {
+    "profession": "information technologist",
+    "specialization": "platform development",
+    "company": "Ypsomed",
+    "apprentice": true
+  },
+  "currently_learning": ["Rust"],
+  "experience": ["Python", "LFS", "Proxmox", "Docker", "VMs", "SQL"]
 }
-
-with open("me.json", "w") as file:
-    json.dump(about_me, file)
 ```
 
 ---
 
 ### `/usr` - My Toolchain
 <p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-FBF8CC?style=for-the-badge&logo=Python&logoColor=black" />
-  <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-FDE4CF?style=for-the-badge&logo=pycharm&logoColor=black" />
-  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-000000?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust" />
-  <img alt="RustRover" src="https://img.shields.io/badge/RustRover-000000?style=for-the-badge&logo=jetbrains" />
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-FFCFD2?style=for-the-badge&logo=github&logoColor=black" />
-  <img alt="Zsh" src="https://img.shields.io/badge/Zsh-F1C0E8?style=for-the-badge&logo=zsh&logoColor=black" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white" />
-  <img alt="Static Badge" src="https://img.shields.io/badge/QEMU-000000?style=for-the-badge&logo=qemu&logoColor=white" />
-  <img alt="Markdown" src="https://img.shields.io/badge/Markdown-CFBAF0?style=for-the-badge&logo=markdown&logoColor=black" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-A3C4F3?style=for-the-badge&logo=git&logoColor=black" />
-  <img alt="Discord" src="https://img.shields.io/badge/Discord-98F5E1?style=for-the-badge&logo=discord&logoColor=black" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-eae4e9?style=for-the-badge&logo=Python&logoColor=black" />
+  <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-fff1e6?style=for-the-badge&logo=pycharm&logoColor=black" />
+  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-fde2e4?style=for-the-badge&logo=jupyter&logoColor=black" />
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-fad2e1?style=for-the-badge&logo=rust&logoColor=black"" />
+  <img alt="RustRover" src="https://img.shields.io/badge/RustRover-e2ece9?style=for-the-badge&logo=jetbrains&logoColor=black"" />
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-bee1e6?style=for-the-badge&logo=github&logoColor=black" />
+  <img alt="Zsh" src="https://img.shields.io/badge/Zsh-f0efeb?style=for-the-badge&logo=zsh&logoColor=black" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-dfe7fd?style=for-the-badge&logo=docker&logoColor=black" />
+  <img alt="Static Badge" src="https://img.shields.io/badge/QEMU-cddafd?style=for-the-badge&logo=qemu&logoColor=black" />
+  <img alt="Markdown" src="https://img.shields.io/badge/Markdown-eae4e9?style=for-the-badge&logo=markdown&logoColor=black" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-fff1e6?style=for-the-badge&logo=git&logoColor=black" />
+  <img alt="Discord" src="https://img.shields.io/badge/Discord-fde2e4?style=for-the-badge&logo=discord&logoColor=black" />
 </p>
 
 **I use**
